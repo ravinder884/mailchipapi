@@ -15,6 +15,7 @@ $lname = "Smith";
 			$json = json_encode([
 				'email_address' => $email,
 				'status'        => 'subscribed',
+				//'tags'  => array('tag name'),  if need to assign tag.
 				 'merge_fields' => array(
                    "FNAME"=> $fname,
                    "LNAME"=> $lname
